@@ -10,17 +10,8 @@ Your harried co-workers are looking to you for a solution to take this garbled t
 Your program will take in a string and clean out all numeric characters, and return a string with spacing and special characters ~#$%^&!@*():;"'.,? all intact.
 */
 
-//NOT FINISHED - EXECUTION TIMES OUT
-
 function stringClean(s){
-  let num = "0123456789"
-  num.split("")
-  let str = s.split("")
-  for (let i=0; i<s.length; i++){
-    if (num.includes(s[i])){
-      str.splice(i,1,)
-      i--
-    }
-  }
-  return str.join("")
+  return s.replace(/\d/g, "");
 }
+
+//Use the regex \d to address all the digits and replace them with ""
