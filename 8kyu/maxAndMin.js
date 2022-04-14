@@ -17,3 +17,9 @@ var max = function(list){
 }
 
 //There are more direct methods, but these evaluate the fundamentals
+
+
+//Best practices, of course:
+
+const min = (list) => Math.min(...list);
+const max = (list) => Math.max(...list);
