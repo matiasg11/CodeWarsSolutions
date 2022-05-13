@@ -7,5 +7,5 @@ function going(n) {
     toInf += toZero 
   }
   
-  return Math.floor(toInf*1000000)/1000000
+  return Math.floor(toInf*1000000)/1000000 //to give the correspondent decimals
   }
