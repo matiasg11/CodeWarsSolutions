@@ -10,3 +10,5 @@ function validParentheses(parens) {
   
   return arr.length == 0 ? true:false
 }
+
+//Iterates 10 times in total. Which is enough for the kind of problems
