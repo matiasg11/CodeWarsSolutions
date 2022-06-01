@@ -12,3 +12,5 @@ function validParentheses(parens) {
 }
 
 //Iterates 10 times in total. Which is enough for the kind of problems
+//If there is a pair of opening and closing parentheses, delete them both.
+//At the end, anything staying behind is because it wasn't unpaired. 
