@@ -20,3 +20,4 @@ function rot13(str) {
   }
   return decypher.join("")
 }
+//Double work to be useful for both lowercase and uppercase.
