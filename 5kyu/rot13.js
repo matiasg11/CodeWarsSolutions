@@ -8,3 +8,4 @@ function rot13(message){
   }
   return mes.join("")
 }
+//with a dictionary works well too. The problem is to create the dictionary manually. 
