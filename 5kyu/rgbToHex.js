@@ -77,7 +77,7 @@ function rgb(r, g, b){
           break;
     }
   }
-  //Profit
+  //Profit!
   return array.join("")
   
   
