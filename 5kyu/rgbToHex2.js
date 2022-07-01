@@ -5,7 +5,7 @@ function rgb(r, g, b){
   let B = toHex(b)
   
   return `${R}${G}${B}`
-  
+  //Template
   
 }
 
