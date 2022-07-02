@@ -7,5 +7,6 @@ function removeNb (n) {
       pairs.push([j,i]);
     }
   }
+  
   return pairs;
 }
