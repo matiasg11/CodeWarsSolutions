@@ -1,5 +1,5 @@
 function productFib(prod){
-  let fib = [0,1]
+  let fib = [0,1] //preload the first numbers or it wouldn't work
 
   for (let i=2; i<prod; i++){
     fib.push(fib[i-2]+fib[i-1])
