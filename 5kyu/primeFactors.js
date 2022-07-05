@@ -28,3 +28,4 @@ function isPrime(n) {
   }
   return n !== 1;
 }
+//Factorize and check if they are primes. 
