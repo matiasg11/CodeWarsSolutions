@@ -15,3 +15,4 @@ function pickPeaks(arr){
   console.log(arr)
   return {pos,peaks}
 }
+//Search for local peaks and its positions. 
