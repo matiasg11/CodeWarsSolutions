@@ -6,3 +6,4 @@ function perimeter(n) {
   fibo = fibo.slice(0,n+1)
     return fibo.reduce((a,b)=>a+b,0)*4 
 }
+//Calculates the perimeter of each square.
