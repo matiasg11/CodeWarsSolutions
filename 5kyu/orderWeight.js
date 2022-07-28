@@ -16,3 +16,4 @@ function orderWeight(strng) {
  return order.join(" ")
   
 }
+//I can do array destructuring but it wouldn't work for some reason on codewars
