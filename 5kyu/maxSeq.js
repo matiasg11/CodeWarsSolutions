@@ -18,3 +18,4 @@ var maxSequence = function(arr){
   
   return max
 }
+//Checks for the maximum sequence of continuous numbers.
