@@ -7,6 +7,7 @@ function listSquared(m, n) {
             divisors.push(j)
           }
         }
+        
       let sq = divisors.map((a)=> a**2).reduce((b,c)=>b+c,0)
       let root = Math.sqrt(sq)
       if (root%1==0){
