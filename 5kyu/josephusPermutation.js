@@ -6,6 +6,7 @@ function josephus(n,k){
 //   }
   let p = 0
   while (n.length>=1){
+    //Goes to the position of the eliminated element
     p = (p + k - 1) % n.length
     result.push(n[p])
     n.splice(p,1)
