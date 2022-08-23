@@ -10,3 +10,4 @@ function josephusSurvivor(n,k){
   }
   return g[0]
 }
+//Very similar to the permutation variant
