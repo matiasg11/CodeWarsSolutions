@@ -1,6 +1,6 @@
 function incrementString (strng) {
   // return incrementedString
-   let regex = /[0-9]/g;
+   let regex = /[0-9]/g;  //Hate regex, but it's easier than other things
   let index = strng.search(regex);
   let arr = [];
   
