@@ -6,3 +6,5 @@ function igPay(str){
     }
     return pig.join(' ')
 } 
+
+igPay("Done") 
