@@ -4,7 +4,7 @@ function humanReadable (seconds) {
   let sec = (seconds%3600)%60
   
   
-  //With a little help for the format.
+  //With a little help for the format. Using the '0' to compute single digits.
   if (hours < 10){
     hours = '0'+hours
   }
