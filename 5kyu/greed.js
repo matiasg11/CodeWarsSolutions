@@ -1,5 +1,5 @@
 function score( dice ) {
-
+ //10000 se le dice acá
   let score = 0
   let array = []
   for(let i=1; i<=6; i++){
