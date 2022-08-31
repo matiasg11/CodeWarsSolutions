@@ -9,3 +9,4 @@ function getAge(birthDate, nowDate) {
   
   return age
 }
+//First calculate it roughly and then check if the person already had its birthday for the year. 
