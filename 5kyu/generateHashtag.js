@@ -12,8 +12,7 @@ function generateHashtag (str) {
   }
   string.unshift("#")
   
-  
- 
-  
+  //Capitalize each word, add a # at the front and join.
+  //Check it's shorter than 140 characters
   return string.join("").length > 140 ? false : string.join("")
 }
