@@ -9,3 +9,4 @@ function firstNonRepeatingLetter(s) {
   }
   return ""
 }
+//Check if the first position is equal to the last position
