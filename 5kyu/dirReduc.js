@@ -56,3 +56,5 @@ function dirReduc(arr){
   }
   return arr
 }
+
+//Similar to the parentheses but cancelling different things
