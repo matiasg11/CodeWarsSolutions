@@ -10,3 +10,5 @@ function cakes(recipe, available) {
   }
   return Math.min(...arr)
 }
+//Calculate if everything needed in the recipe is available
+//Calculate the minimum of cakes that can be done
