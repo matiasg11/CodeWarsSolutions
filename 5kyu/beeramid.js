@@ -30,7 +30,7 @@ var beeramid = function(bonus, price) {
   
   return levels-1
   
-  
+  //I thought about it a few minutes and then it resulted easier than some 6 or 7 kyus
   
   
   
