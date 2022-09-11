@@ -23,3 +23,5 @@ function anagrams(word, words) {
   })
   return result
 }
+
+//If they are anagrams, all the letters in order should be the same
