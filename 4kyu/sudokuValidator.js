@@ -52,7 +52,7 @@ function validSolution(board){
   for (let i=0; i<arr.length; i++){
     for(let j=0; j<arr[0].length; j++){
       if (arr[i].indexOf(arr[i][j]) !== arr[i].lastIndexOf(arr[i][j])){
-        return false
+        return false  //Anything wrong triggers this
       }
     }
   }
