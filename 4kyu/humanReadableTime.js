@@ -36,3 +36,4 @@ function formatDuration (seconds) {
   }
   return answer
 }
+//Another human readable but with a twitch
