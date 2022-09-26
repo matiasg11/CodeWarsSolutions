@@ -12,6 +12,8 @@ function sumStrings(a, b) {
     result = carry % 10 + result
     carry = carry > 9
   }
+
+  
   while (result[0]==0){
    result = result.split("")
     result.shift()
