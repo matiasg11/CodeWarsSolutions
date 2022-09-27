@@ -8,9 +8,12 @@ function add (a, b) {
   //While one of the numbers has still digits to be summed...
   while (a.length>0 || b.length>0 || carry>0) {
     //The carry would be the "units" summed from both numbers
-    carry += ~~a.pop() + ~~b.pop() //The double tilde is a faster substitute for Math.floor 
+    carry += ~~a.pop() + ~~b.pop() 
+    //The double tilde is a faster substitute for Math.floor 
     result = carry % 10 + result
     carry = carry > 9
   }
   return result
 }
+
+
