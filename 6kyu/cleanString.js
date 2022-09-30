@@ -13,3 +13,4 @@ function cleanString(s) {
   return str.join("").replace(/#/gi,"")
 
 }
+//Replace the letters following # and then #
