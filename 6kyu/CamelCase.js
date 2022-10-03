@@ -10,3 +10,5 @@ String.prototype.camelCase=function(){
   }
   return arr.join("")
 }
+
+//Remove extra spaces, separate each word, capitalize it and then join
