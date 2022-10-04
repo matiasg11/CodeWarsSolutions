@@ -6,3 +6,4 @@ function checkAlive (health) {
     return true
   }
 }
+//Self explanatory
