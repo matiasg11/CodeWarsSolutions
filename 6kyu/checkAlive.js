@@ -7,3 +7,4 @@ function checkAlive (health) {
   }
 }
 //Self explanatory
+//return health <= 0 ? false : true
