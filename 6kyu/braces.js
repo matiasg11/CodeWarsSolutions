@@ -23,3 +23,4 @@ function validBraces(braces){
   //Output: Boolean
   return array.length == 0 ? true:false
 }
+//Similar to parentheses but for 3 types of things
