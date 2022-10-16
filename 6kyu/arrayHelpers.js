@@ -28,3 +28,4 @@ Array.prototype.odd  = function () {
       return n%2 == 1; 
     }); 
 }
+//Prototype functions!
