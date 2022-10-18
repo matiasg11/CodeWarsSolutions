@@ -7,3 +7,4 @@ function alphabetPosition(text) {
   result = result.filter((a)=> a>0 && a< 27)
   return result.join(" ");
 }
+//IDK what the exercise asked
