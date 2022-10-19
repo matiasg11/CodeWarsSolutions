@@ -5,3 +5,4 @@ function divisors(integer) {
   }
   return result.length == 0 ? `${integer} is prime` : result;
 };
+//Priming!
