@@ -14,7 +14,7 @@ function digital_root(n) {
   for(let i = 0; i < num.length; i++) {
     result += parseInt(num[i]);
   }
-  return result < 10 ? result : digital_root(result);  //Using ternary now that I totally got it
+  return result < 10 ? result : digital_root(result);  //Using ternary now that I totally got it!
 }
 
 function digital_root(n) {
