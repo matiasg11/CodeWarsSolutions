@@ -21,3 +21,4 @@ function diamond(n){
    console.log(str)
   return str;
 }
+//Very similar to beeramid
