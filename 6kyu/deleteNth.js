@@ -5,3 +5,4 @@ function deleteNth(arr,n){
    
  return array
 }
+//This is more complicated than it seems
