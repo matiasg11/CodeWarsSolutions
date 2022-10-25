@@ -8,10 +8,10 @@ decodeMorse = function(morseCode){
     for (let j=0; j<word.length; j++) {
       if (MORSE_CODE[word[j]] !== undefined) {
         answer += (MORSE_CODE[word[j]]);
-      }
-    }
+      }}
     answer = answer + ' ';
   }
   answer = answer.trim();
   return answer;
 }
+
