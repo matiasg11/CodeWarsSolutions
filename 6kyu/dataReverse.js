@@ -7,4 +7,5 @@ function dataReverse(data) {
   let result = bytes.reverse()
   return result
 }
+
 //falta el ultimo giro
