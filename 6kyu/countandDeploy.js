@@ -4,6 +4,7 @@ function count (string) {
   if (str.length==0){
     return obj
   }
+  
   for(let i=0; i<str.length;i++){
     if (!(str[i] in obj)){
       obj[str[i]] = 1
