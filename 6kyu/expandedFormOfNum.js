@@ -7,6 +7,7 @@ function expandedForm(num) {
     if(num[i] != 0){
     num[i] = num[i]*(10**(dot-i-1))
   }}
+  
   for(let i=dot+1; i<num.length; i++){
     if(num[i]!=0) {
     num[i] = `${num[i]}/${10**(i-dot)}`
