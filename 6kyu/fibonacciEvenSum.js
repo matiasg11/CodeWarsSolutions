@@ -5,7 +5,6 @@ The Fibonacci sequence is a series of numbers where the next value is the additi
 0 1 1 2 3 5 8 13 21...
 
 For example:
-
 fibonacci(0)==0
 fibonacci(33)==10
 fibonacci(25997544)==19544084*/
