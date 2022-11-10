@@ -5,13 +5,14 @@ Beginning with one immature pair of these idealized rabbits that produce b pairs
 To illustrate the problem, consider the following example:
 
 fib_rabbits(5, 3) returns 19
+
 Month	Immature Pairs	Adult Pairs
-0	1	0
-1	0	1
-2	3	1
-3	3	4
-4	12	7
-5	21	19
+0       	1	                0
+1	       	0	                1
+2	       	3	                1
+3	       	3	                4
+4	       12	                7
+5	       21                19
 Hint: any Fibonacci number can be computed using the following equation Fn = F(n-1) + F(n-2)*/
 
 
