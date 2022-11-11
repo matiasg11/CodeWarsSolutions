@@ -10,7 +10,6 @@ function expandedForm(num) {
         result += ` + `
       }
     }
-    
   }
   return  result.slice(-3) == " + " ? result.slice(0,-3) : result
 }
